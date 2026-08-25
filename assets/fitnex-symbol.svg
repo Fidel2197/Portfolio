@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">FitNex symbol</title>
+  <desc id="desc">A dumbbell and progress bolt for a fitness tracker.</desc>
+  <rect width="128" height="128" rx="28" fill="#101718"/>
+  <path d="M29 44v40M43 36v56M85 36v56M99 44v40" stroke="#f6c24a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M43 64h42" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M68 25 54 67h18l-12 36 34-49H74l13-29Z" fill="#e50444" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M30 96c18 12 51 13 69 0" fill="none" stroke="#0bd2d6" stroke-width="5" stroke-linecap="round"/>
+</svg>

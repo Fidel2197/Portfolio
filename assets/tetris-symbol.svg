@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Tetris Game symbol</title>
+  <desc id="desc">Stacked tetromino blocks for a browser Tetris game.</desc>
+  <rect width="128" height="128" rx="26" fill="#101114"/>
+  <g stroke="#101114" stroke-width="5">
+    <path d="M29 30h24v24H29z" fill="#36d9d6"/>
+    <path d="M53 30h24v24H53z" fill="#36d9d6"/>
+    <path d="M53 54h24v24H53z" fill="#36d9d6"/>
+    <path d="M29 78h24v24H29z" fill="#f4c24b"/>
+    <path d="M53 78h24v24H53z" fill="#f4c24b"/>
+    <path d="M77 78h24v24H77z" fill="#f4c24b"/>
+    <path d="M77 54h24v24H77z" fill="#ef5d7a"/>
+    <path d="M77 30h24v24H77z" fill="#5f9fff"/>
+  </g>
+  <path d="M26 107h78" stroke="#72d36b" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Arcane Duel symbol</title>
+  <desc id="desc">A magic duel sigil with crossing spell streaks.</desc>
+  <rect width="128" height="128" rx="28" fill="#19151d"/>
+  <circle cx="64" cy="64" r="43" fill="#211a22" stroke="#f2b84b" stroke-width="6"/>
+  <path d="M34 89 92 31M36 36l56 56" stroke="#41d6ca" stroke-width="8" stroke-linecap="round"/>
+  <path d="M64 23 72 51l29 13-29 13-8 28-8-28-29-13 29-13Z" fill="#b87bff" fill-opacity=".82" stroke="#f8f2e8" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="9" fill="#f2b84b"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Fidel Anyanwu portfolio symbol</title>
+  <desc id="desc">A clean FA monogram for a developer portfolio.</desc>
+  <rect width="128" height="128" rx="24" fill="#111827"/>
+  <path d="M31 96V29h46M31 62h39" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M63 96 88 30l25 66M75 73h26" fill="none" stroke="#14b8a6" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 107h80" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+</svg>
