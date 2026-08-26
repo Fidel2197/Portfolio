@@ -536,6 +536,24 @@ h3 {
   background: linear-gradient(135deg, #e9f4f2, #fff5e9);
 }
 
+.signaldesk-project-preview {
+  padding: 14px;
+  background:
+    linear-gradient(135deg, rgba(7, 8, 10, 0.96), rgba(15, 118, 110, 0.72)),
+    #111827;
+}
+
+.feature-project .project-image img.signaldesk-shot {
+  width: 100%;
+  height: auto;
+  max-height: 640px;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center top;
+  border-radius: 6px;
+  box-shadow: 0 14px 36px rgba(7, 8, 10, 0.26);
+}
+
 .feature-project .project-image img.studyops-shot {
   width: 100%;
   height: auto;

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">SignalDesk symbol</title>
+  <rect width="64" height="64" rx="14" fill="#07080a"/>
+  <path d="M12 40h40" stroke="#d6ff3f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M12 28h11l5-10 8 28 6-18h10" fill="none" stroke="#36d7ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18" cy="40" r="4" fill="#ff8a3d"/>
+  <circle cx="46" cy="28" r="4" fill="#ff415d"/>
+</svg>
