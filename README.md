@@ -1,12 +1,12 @@
 # Fidel Anyanwu Portfolio
 
 This is a static portfolio website for job, internship, and company applications.
-It introduces Fidel Anyanwu, highlights selected web projects, lists skills, and
-provides contact links.
+It introduces Fidel Anyanwu, highlights selected web projects, links to deeper
+approach, experience, and skills pages, and provides contact links.
 
 The current version also includes recruiter-focused summary sections, concrete
-work-area explanations, assistant experience context, live deployment links, and
-project visuals for quick review.
+work-area explanations, assistant experience context, separate profile pages,
+live deployment links, and project visuals for quick review.
 
 Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
@@ -14,6 +14,7 @@ Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
 - SnapChef: full-stack AI food image assistant with live site
 - SignalDesk: incident response workspace with separate command, guide, incidents, response, regions, and reports views
+- Portfolio detail pages: separate Approach, Experience, and Skills pages for recruiter-friendly review
 - StudyOps: live browser study command center with files, notes, tasks, flashcards, quiz filters, backups, Panic Mode planning, and updated dashboard screenshot
 - Campus Connect: campus networking platform with simplified navigation and grouped student hub actions
 - Arcane Duel: browser canvas gesture-combat game
