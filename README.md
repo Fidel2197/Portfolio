@@ -13,7 +13,7 @@ Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 ## Projects Included
 
 - SnapChef: full-stack AI food image assistant with live site
-- SignalDesk: incident response workspace with separate command, incidents, response, regions, and reports views
+- SignalDesk: incident response workspace with separate command, guide, incidents, response, regions, and reports views
 - StudyOps: live browser study command center with files, notes, tasks, flashcards, quiz filters, backups, Panic Mode planning, and updated dashboard screenshot
 - Campus Connect: campus networking platform with simplified navigation and grouped student hub actions
 - Arcane Duel: browser canvas gesture-combat game
