@@ -26,7 +26,7 @@ Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
 ## Live Sites
 
-- SnapChef: https://snapchef-lckic8lxq-fidel-anyanwu-s-projects.vercel.app/
+- SnapChef: https://snapchef-nine.vercel.app/
 - SignalDesk: https://signaldesk-pink-two.vercel.app/
 - StudyOps: https://studyops-seven.vercel.app/
 - Campus Connect: https://campus-connect-phi-teal.vercel.app/
