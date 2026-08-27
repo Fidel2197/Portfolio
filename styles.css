@@ -426,25 +426,23 @@ h3 {
   position: relative;
   min-height: 420px;
   border: 1px solid var(--line);
-  border-top: 34px solid rgba(17, 24, 39, 0.9);
   border-radius: 8px;
-  background: var(--surface);
-  box-shadow: var(--shadow);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.38), transparent 48%),
+    var(--surface);
+  box-shadow: 0 28px 70px rgba(23, 32, 42, 0.16);
   overflow: hidden;
   transform: translateZ(0);
 }
 
 .hero-showcase::before {
   position: absolute;
-  top: -22px;
-  left: 16px;
-  z-index: 3;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: #dc5a45;
-  box-shadow: 16px 0 0 #d99a17, 32px 0 0 #0f766e;
+  inset: 12px;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.54);
+  border-radius: 6px;
   content: "";
+  pointer-events: none;
 }
 
 .hero-showcase::after {
