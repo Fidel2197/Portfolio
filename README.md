@@ -1,11 +1,12 @@
 # Fidel Anyanwu Portfolio
 
 This is a static portfolio website for job, internship, and company applications.
-It introduces Fidel Anyanwu, highlights selected web projects, links to deeper
+It introduces Fidel Anyanwu, highlights selected software projects, links to deeper
 approach, experience, skills, and contact pages.
 
 The current version also includes recruiter-focused summary sections, concrete
-work-area explanations, assistant experience context, broader cloud/data skills,
+work-area explanations, assistant experience context, broader data, deployment,
+support, and Microsoft tool skills,
 separate profile pages, page-specific visuals, a homepage reading guide, a build
 map, project review notes, live deployment links, and project screenshots for
 quick review.
@@ -55,5 +56,5 @@ Pages, Netlify, Vercel, or another static hosting option.
 - Add a short note about your exact CowboysBookstore contribution if you want
   to discuss it in interviews.
 - Replace or expand project descriptions as each project gets stronger.
-- Add a dedicated AWS-backed project when you are ready to show hands-on cloud
-  service work beyond fundamentals.
+- Add more exact notes for data records, deployment checks, troubleshooting,
+  reporting, and team contribution as projects become more complete.

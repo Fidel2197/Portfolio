@@ -1333,7 +1333,7 @@ h3 {
   color: var(--surface-strong);
 }
 
-.learning-panel {
+.direction-panel {
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
   gap: 18px;
@@ -1348,14 +1348,14 @@ h3 {
   padding: 24px;
 }
 
-.learning-list {
+.direction-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: center;
 }
 
-.learning-list span {
+.direction-list span {
   border: 1px solid rgba(17, 24, 39, 0.12);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.78);
@@ -1968,7 +1968,7 @@ h3 {
   .experience-detail,
   .skills-showcase,
   .tool-usage-map,
-  .learning-panel,
+  .direction-panel,
   .proof-list,
   .interview-notes,
   .experience-grid,
@@ -2066,7 +2066,7 @@ h3 {
   .skills-showcase article,
   .tool-usage-map > div:first-child,
   .usage-columns article,
-  .learning-panel,
+  .direction-panel,
   .note-stack article,
   .skill-proof,
   .contact-intent > div:first-child,
