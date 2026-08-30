@@ -5,16 +5,17 @@ It introduces Fidel Anyanwu, highlights selected web projects, links to deeper
 approach, experience, skills, and contact pages.
 
 The current version also includes recruiter-focused summary sections, concrete
-work-area explanations, assistant experience context, separate profile pages,
-page-specific visuals, a homepage reading guide, a build map, project review
-notes, live deployment links, and project screenshots for quick review.
+work-area explanations, assistant experience context, broader cloud/data skills,
+separate profile pages, page-specific visuals, a homepage reading guide, a build
+map, project review notes, live deployment links, and project screenshots for
+quick review.
 
 Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
 ## Projects Included
 
 - SnapChef: full-stack AI food image assistant with live site
-- SignalDesk: incident response workspace with separate command, guide, incidents, response, regions, and reports views
+- SignalDesk: incident response workspace with separate command, guide, incidents, response, regions, public signals, and reports views
 - Portfolio detail pages: separate Approach, Experience, Skills, and Contact pages with decision notes, work translation, tool usage, and contact context
 - StudyOps: live browser study command center with files, notes, tasks, flashcards, quiz filters, backups, Panic Mode planning, and updated dashboard screenshot
 - Campus Connect: campus networking platform with simplified navigation and grouped student hub actions
@@ -54,3 +55,5 @@ Pages, Netlify, Vercel, or another static hosting option.
 - Add a short note about your exact CowboysBookstore contribution if you want
   to discuss it in interviews.
 - Replace or expand project descriptions as each project gets stronger.
+- Add a dedicated AWS-backed project when you are ready to show hands-on cloud
+  service work beyond fundamentals.
