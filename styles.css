@@ -2130,3 +2130,15 @@ h3 {
     width: 100%;
   }
 }
+/* DataDock's actual four-step workflow, presented as an explanatory diagram. */
+.datadock-flow { padding: clamp(1.7rem,4vw,3.5rem); background: linear-gradient(145deg,#102f36,#071d24); color: #f4fafb; display: flex; flex-direction: column; justify-content: center; }
+.datadock-flow-label { font-size: .8rem; letter-spacing: .12em; color: #79dcca; }
+.datadock-flow > strong { margin-top: 1.5rem; font-size: clamp(2.5rem,5vw,4rem); line-height: 1.1; letter-spacing: -.05em; }
+.datadock-flow > strong > span { color: #73e1c7; }
+.datadock-flow > p { font-size: 1.25rem; color: #c2d6db; line-height: 1.5; }
+.datadock-flow ol { padding: 0; margin: 1.5rem 0 2rem; list-style: none; display: grid; gap: 1rem; }
+.datadock-flow li { display: flex; align-items: center; gap: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #ffffff17; }
+.datadock-flow li > span { font-size: .9rem; color: #79dcca; width: 2rem; }
+.datadock-flow li > div { font-size: 1.1rem; font-weight: 650; }
+.datadock-flow small { display: block; color: #c2d6db; font-size: .9rem; font-weight: 400; margin-top: .2rem; }
+.datadock-flow-footer { color: #90abb2; font-size: .8rem; line-height: 1.7; }

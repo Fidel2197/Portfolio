@@ -15,6 +15,7 @@ Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
 ## Projects Included
 
+- DataDock: Python and React data quality application with CSV uploads, row-level review, charts, cleaned exports, optional accounts, and a quick guide
 - SnapChef: full-stack AI food image assistant with live site
 - SignalDesk: incident response workspace with separate command, guide, incidents, response, regions, public signals, and reports views
 - Portfolio detail pages: separate Approach, Experience, Skills, and Contact pages with decision notes, work translation, tool usage, and contact context
@@ -28,6 +29,7 @@ Portfolio live site: https://fidel-portfolio-eta.vercel.app/
 
 ## Live Sites
 
+- DataDock: https://datadock-fidel2197.vercel.app/
 - SnapChef: https://snapchef-nine.vercel.app/
 - SignalDesk: https://signaldesk-pink-two.vercel.app/
 - StudyOps: https://studyops-seven.vercel.app/
