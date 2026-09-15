@@ -25,41 +25,50 @@
 
     <main id="top">
       <section class="hero">
+        <div class="hero-ambient" aria-hidden="true">
+          <span class="hero-bubble bubble-one"></span>
+          <span class="hero-bubble bubble-two"></span>
+          <span class="hero-bubble bubble-three"></span>
+          <span class="hero-bubble bubble-four"></span>
+        </div>
         <div class="hero-copy">
-          <p class="eyebrow">Computer Science Student | Software, Data, and Support Projects</p>
+          <p class="eyebrow">Computer Science Student | Web Developer | Research &amp; Teaching Assistant</p>
           <h1>Fidel Anyanwu</h1>
           <p class="hero-text">
-            I build working web apps, data-aware dashboards, browser games,
-            study tools, and deployed project sites with clear interfaces,
-            practical logic, and documentation that makes each project easier
-            to review. My work connects JavaScript and TypeScript behavior,
-            Python and FastAPI services, SQL and Supabase data flows, troubleshooting,
-            reporting, GitHub workflows, and Vercel deployments for software,
-            IT analyst, and technical support roles.
+            I build practical web apps, dashboards, study tools, and browser
+            games with clean interfaces, working data flows, and project notes
+            that make the code easier to review. I am focused on internships,
+            entry-level software work, IT/CS support, and teams that value
+            clear communication as much as finished features.
           </p>
           <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button primary" href="#featured-work">Featured Work</a>
+            <a class="button secondary" href="#projects">Project Gallery</a>
             <a class="button secondary" href="https://github.com/Fidel2197" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a class="button secondary" href="contact.html">Contact</a>
           </div>
           <div class="hero-proof" aria-label="Quick profile highlights">
-            <span>Live Vercel sites</span>
-            <span>GitHub repos</span>
-            <span>Database flows</span>
-            <span>Cloud deployment</span>
+            <span>Expected graduation: December 2026</span>
+            <span>Open to internships and work</span>
+            <span>Live Vercel projects</span>
+            <span>GitHub-ready documentation</span>
           </div>
         </div>
         <div class="hero-showcase" aria-label="Portfolio highlights">
           <img
-            src="assets/snapchef-food-board.png"
-            alt="SnapChef project visual showing a food board and AI recipe assistant branding"
+            src="assets/snapchef-home.png"
+            alt="SnapChef home screen showing a food image assistant interface"
           />
+          <div class="showcase-tabs" aria-hidden="true">
+            <span>Web apps</span>
+            <span>Data flows</span>
+            <span>Support tools</span>
+          </div>
           <div class="hero-stats">
-            <span><strong>9</strong> personal project showcases</span>
-            <span><strong>1</strong> collaborative bookstore project</span>
-            <span><strong>Live</strong> Vercel deployments with GitHub repos</span>
+            <span><strong>9</strong> personal projects across apps, games, and tools</span>
+            <span><strong>2</strong> full-stack projects with accounts and saved data</span>
+            <span><strong>1</strong> collaborative team repository</span>
           </div>
         </div>
       </section>
@@ -76,13 +85,13 @@
           </div>
         </div>
         <div class="storyboard-copy">
-          <p class="section-kicker">How To Read This Portfolio</p>
-          <h2 id="storyboard-title">Start with what the project helps someone do.</h2>
+          <p class="section-kicker">Start Here</p>
+          <h2 id="storyboard-title">Start with the work, then the code.</h2>
           <p>
-            I want each project to answer a practical question quickly. SnapChef
-            helps someone move from a food image to a recipe direction.
-            SignalDesk helps a team see what is happening and what to do next.
-            StudyOps helps a student keep study work from becoming scattered.
+            I built this portfolio so a recruiter can quickly see what each
+            project does, open the live version, and then inspect the repo.
+            The strongest examples show interface design, app behavior, saved
+            data, deployment habits, and documentation in the same place.
           </p>
           <div class="storyboard-grid" aria-label="Portfolio reading guide">
             <article>
@@ -122,27 +131,85 @@
         </p>
       </section>
 
+      <section class="featured-work" id="featured-work" aria-labelledby="featured-work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Featured Work</p>
+          <h2 id="featured-work-title">Three projects worth opening first.</h2>
+          <p>
+            These projects give the quickest view of how I think through real
+            user flows: data cleanup, AI-assisted results, public signals,
+            accounts, saved records, and deployment-ready presentation.
+          </p>
+        </div>
+        <div class="featured-work-grid">
+          <article class="featured-card datadock-card">
+            <div class="featured-visual mini-datadock" aria-hidden="true">
+              <span>CSV</span>
+              <span>Review</span>
+              <span>Charts</span>
+              <span>Export</span>
+            </div>
+            <div>
+              <p class="project-type">Full-stack data app</p>
+              <h3>DataDock</h3>
+              <p>CSV quality checks, chart review, cleaned exports, private accounts, and a Python analysis backend.</p>
+              <div class="featured-links">
+                <a href="#datadock">Details</a>
+                <a href="https://datadock-fidel2197.vercel.app/" target="_blank" rel="noreferrer">Live Site</a>
+                <a href="https://github.com/Fidel2197/DataDock" target="_blank" rel="noreferrer">Repository</a>
+              </div>
+            </div>
+          </article>
+          <article class="featured-card">
+            <img src="assets/snapchef-home.png" alt="SnapChef home screen with food image analysis controls" />
+            <div>
+              <p class="project-type">AI-assisted product flow</p>
+              <h3>SnapChef</h3>
+              <p>Food image upload, recipe direction, nutrition notes, substitutions, saved scans, and account history.</p>
+              <div class="featured-links">
+                <a href="#snapchef">Details</a>
+                <a href="https://snapchef-nine.vercel.app/" target="_blank" rel="noreferrer">Live Site</a>
+                <a href="https://github.com/Fidel2197/snapchef" target="_blank" rel="noreferrer">Repository</a>
+              </div>
+            </div>
+          </article>
+          <article class="featured-card">
+            <img src="assets/signaldesk-preview.png" alt="SignalDesk dashboard with response workspace and public signal checks" />
+            <div>
+              <p class="project-type">Operations dashboard</p>
+              <h3>SignalDesk</h3>
+              <p>Incident views, response planning, region filters, public status checks, and report-style pages.</p>
+              <div class="featured-links">
+                <a href="#signaldesk">Details</a>
+                <a href="https://signaldesk-pink-two.vercel.app/" target="_blank" rel="noreferrer">Live Site</a>
+                <a href="https://github.com/Fidel2197/SignalDesk" target="_blank" rel="noreferrer">Repository</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section class="recruiter-snapshot" aria-labelledby="snapshot-title">
         <div class="section-heading">
-          <p class="section-kicker">Recruiter Snapshot</p>
-          <h2 id="snapshot-title">A quick read on what I can contribute.</h2>
+          <p class="section-kicker">Where I Fit</p>
+          <h2 id="snapshot-title">What I can bring to a team right now.</h2>
         </div>
         <div class="snapshot-grid">
           <article>
-            <strong>Interface implementation</strong>
-            <span>Responsive screens, accessible forms, navigation, project visuals, and layouts that work on desktop and mobile.</span>
+            <strong>Clean screens</strong>
+            <span>Responsive pages, readable spacing, accessible forms, project visuals, and navigation that works on desktop and mobile.</span>
           </article>
           <article>
-            <strong>Application logic</strong>
-            <span>JavaScript state, canvas games, API routes, auth flows, saved data, and user-facing feedback.</span>
+            <strong>Working behavior</strong>
+            <span>JavaScript state, canvas game logic, API routes, auth flows, saved data, validation, and clear user feedback.</span>
           </article>
           <article>
-            <strong>Data, deployment, and support habits</strong>
-            <span>Vercel deployments, GitHub workflows, SQL, T-SQL, Supabase, Microsoft SQL Server concepts, saved records, public status APIs, troubleshooting, and deployment checks.</span>
+            <strong>Data and deployment habits</strong>
+            <span>Vercel deployments, GitHub workflows, SQL, T-SQL, Supabase, Microsoft SQL Server concepts, saved records, and public status checks.</span>
           </article>
           <article>
-            <strong>Documentation and workplace tools</strong>
-            <span>Teaching support, README writing, Microsoft 365, Excel reporting, research notes, debugging steps, and clear project walkthroughs.</span>
+            <strong>Steady communication</strong>
+            <span>Teaching support, README writing, Microsoft 365, Excel reporting, research notes, debugging steps, and project walkthroughs.</span>
           </article>
         </div>
       </section>
@@ -289,7 +356,7 @@
 
       <section class="projects" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
-          <p class="section-kicker">My Work</p>
+          <p class="section-kicker">Project Gallery</p>
           <h2 id="projects-title">Projects I can open and talk through confidently.</h2>
           <p>
             Each featured project has enough detail to explain the problem,
@@ -299,15 +366,15 @@
 
         <div class="project-jump-guide" aria-label="Project review guide">
           <article>
-            <strong>Best first click</strong>
+            <strong>Data and backend</strong>
             <span>DataDock connects a React interface to Python analysis, private accounts, PostgreSQL, and cloud hosting.</span>
           </article>
           <article>
-            <strong>Best workflow example</strong>
+            <strong>Workflow design</strong>
             <span>SignalDesk shows command, guide, incidents, response, regions, public signals, and reports.</span>
           </article>
           <article>
-            <strong>Best logic examples</strong>
+            <strong>Interactive logic</strong>
             <span>Arcane Duel and Tetris show real-time state, controls, scoring, and reset behavior.</span>
           </article>
         </div>
@@ -352,7 +419,7 @@
           </div>
         </article>
 
-        <article class="project feature-project">
+        <article class="project feature-project" id="snapchef">
           <div class="project-image">
             <img
               class="snapchef-shot"
@@ -413,7 +480,7 @@
           </div>
         </article>
 
-        <article class="project feature-project">
+        <article class="project feature-project" id="signaldesk">
           <div class="project-image signaldesk-project-preview">
             <img
               class="signaldesk-shot"
@@ -971,5 +1038,18 @@
         <a class="button primary" href="contact.html">Open Contact Page</a>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Fidel Anyanwu</strong>
+        <span>Computer Science student building web apps, data tools, dashboards, and support-ready project experiences.</span>
+      </div>
+      <nav aria-label="Footer links">
+        <a href="contact.html">Contact</a>
+        <a href="skills.html">Skills</a>
+        <a href="https://github.com/Fidel2197" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/fidel-anyanwu-98a34124b/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </nav>
+    </footer>
   </body>
 </html>
