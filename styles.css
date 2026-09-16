@@ -2210,7 +2210,8 @@ h3 {
 }
 
 .poster-bookstore {
-  display: block;
+  display: flex;
+  flex-direction: column;
   min-height: 300px;
   padding: 0;
   background: #f7f9fc;
@@ -2237,6 +2238,7 @@ h3 {
 
 .poster-bookstore .bookstore-preview-hero {
   display: flex;
+  flex: 1;
   min-height: 252px;
   flex-direction: column;
   align-items: flex-start;
