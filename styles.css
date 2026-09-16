@@ -2210,9 +2210,61 @@ h3 {
 }
 
 .poster-bookstore {
-  background:
-    linear-gradient(135deg, rgba(17, 24, 39, 0.96), rgba(15, 118, 110, 0.88)),
-    linear-gradient(45deg, #111827 0 25%, #1f2937 25% 50%, #0f766e 50% 75%, #b45309 75% 100%);
+  display: block;
+  min-height: 300px;
+  padding: 0;
+  background: #f7f9fc;
+}
+
+.poster-bookstore .bookstore-preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 18px;
+  background: #fff;
+  color: #14243b;
+  font-size: 0.78rem;
+}
+
+.poster-bookstore .bookstore-preview-bar span {
+  border: 0;
+  background: none;
+  color: #14243b;
+  font-size: 0.72rem;
+}
+
+.poster-bookstore .bookstore-preview-hero {
+  display: flex;
+  min-height: 252px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  padding: 26px;
+  background: linear-gradient(90deg, rgba(16, 37, 59, 0.96), rgba(16, 37, 59, 0.36)),
+    url("assets/cowboy-bookstore-hero.png") center / cover;
+}
+
+.poster-bookstore .bookstore-preview-hero p {
+  color: #ffd848;
+  font-size: 0.7rem;
+}
+
+.poster-bookstore .bookstore-preview-hero h4 {
+  max-width: 280px;
+  font-size: 1.25rem;
+  line-height: 1.22;
+}
+
+.poster-bookstore .bookstore-preview-hero span {
+  border: 0;
+  border-radius: 4px;
+  padding: 7px 10px;
+  background: #ffd848;
+  color: #14243b;
+  font-size: 0.7rem;
 }
 
 .project-grid {
