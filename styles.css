@@ -72,10 +72,10 @@
 .bookstore-thumb span { font-size: .66rem; letter-spacing: .09em; }
 .home-experience { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; padding: 30px; border-block: 1px solid var(--line); }
 .home-experience p { max-width: 660px; color: var(--muted); }
-.home-experience h2 { margin: 6px 0; font-size: 1.65rem; }
+.home-experience h2 { margin: 6px 0; font-size: 1.4rem; }
 .curated-home .contact-prompt { padding-top: 48px; }
 .case-heading { max-width: 850px; padding: 32px 0; }
-.case-heading h1 { margin: 4px 0 16px; font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.1; letter-spacing: -.035em; }
+.case-heading h1 { margin: 4px 0 14px; font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.25; font-weight: 750; letter-spacing: -.02em; }
 .case-heading > p:not(.section-kicker):not(.compact-stack) { max-width: 720px; font-size: 1.1rem; color: var(--muted); }
 .case-heading .hero-actions { gap: 24px; margin-top: 22px; }
 .case-heading .hero-actions a, .text-link, .back-link, .case-next a { color: var(--teal-dark); font-weight: 700; text-underline-offset: 4px; }
@@ -90,11 +90,29 @@
 .case-next p { margin: 0 0 6px; }
 .contact-card .text-link { display: inline-block; margin-top: 14px; }
 .role-list { display: grid; gap: 20px; }
-.role-card { display: grid; grid-template-columns: 220px 1fr; gap: 32px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+.role-card { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 32px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
 .role-meta { color: var(--teal-dark); font-weight: 700; font-size: .9rem; }
-.role-card h2 { margin: 0 0 6px; font-size: 1.35rem; }
+.role-card h2 { margin: 0 0 6px; font-size: 1.25rem; }
 .role-card .organization { margin: 0 0 14px; color: var(--muted); }
 .role-card li { margin-bottom: 8px; }
+.role-area { display: block; margin-top: 12px; color: var(--muted); font-size: .82rem; font-weight: 400; line-height: 1.6; }
+.role-content > p, .role-content li { color: #465666; line-height: 1.75; }
+.role-content ul { padding-left: 20px; margin: 20px 0; }
+.role-content strong { color: var(--text); }
+.role-content > p:last-child { margin-bottom: 0; }
+.role-example { padding: 18px 20px; margin: 22px 0; background: #f0f7f6; border-left: 3px solid #80b8ae; border-radius: 0 6px 6px 0; }
+.role-example h3, .coursework-grid h3 { font-size: 1rem; line-height: 1.4; margin: 0 0 8px; }
+.role-example p { margin: 0; color: #465666; line-height: 1.75; }
+.experience-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 0 0 26px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.experience-nav a { color: var(--teal-dark); font-size: .9rem; font-weight: 650; text-underline-offset: 4px; }
+.experience-page { padding-top: 32px; }
+.experience-page > .case-heading:first-child { padding-top: 12px; }
+.experience-page .role-card, .experience-page #education { scroll-margin-top: 110px; }
+.coursework-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 32px; margin-top: 24px; }
+.coursework-grid section { border-top: 1px solid #bfd2e0; padding-top: 16px; }
+.coursework-grid p, .education-band > p:not(.section-kicker) { color: #465666; line-height: 1.75; }
+.coursework-grid p { margin-bottom: 0; }
+.education-meta { font-weight: 600; }
 .education-band { margin-top: 32px; padding: 24px; background: #e8f1fa; border-radius: 10px; }
 .education-band h2 { margin: 0 0 8px; }
 @media (max-width: 860px) {
@@ -102,6 +120,8 @@
   .compact-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .home-experience, .role-card { grid-template-columns: 1fr; gap: 16px; }
   .case-sections { grid-template-columns: 1fr; }
+  .coursework-grid { grid-template-columns: 1fr; }
+  .role-area { margin-top: 4px; }
 }
 @media (max-width: 560px) {
   .personal-note { width: calc(100% - 44px); }
@@ -569,9 +589,9 @@ p {
 h1 {
   margin-bottom: 18px;
   color: var(--surface-strong);
-  font-size: clamp(1.9rem, 3.5vw, 2.45rem);
-  line-height: 1.06;
-  font-weight: 900;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.25;
+  font-weight: 750;
 }
 
 .hero .eyebrow {
@@ -588,8 +608,8 @@ h1 {
 .hero h1 {
   max-width: 620px;
   color: #ffffff;
-  font-size: clamp(2.35rem, 4.3vw, 3.25rem);
-  line-height: 1;
+  font-size: clamp(1.9rem, 3vw, 2.5rem);
+  line-height: 1.15;
   text-shadow: 0 0 26px rgba(6, 182, 212, 0.38), 0 3px 0 rgba(11, 18, 32, 0.28);
   text-wrap: balance;
 }
@@ -597,7 +617,7 @@ h1 {
 h2 {
   margin-bottom: 0;
   color: var(--surface-strong);
-  font-size: clamp(1.35rem, 2.2vw, 1.65rem);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   line-height: 1.18;
 }
 
@@ -2826,11 +2846,11 @@ h3 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .hero h1 {
-    font-size: clamp(2.1rem, 10vw, 2.55rem);
+    font-size: clamp(1.75rem, 7vw, 2rem);
   }
 
   .hero-text {

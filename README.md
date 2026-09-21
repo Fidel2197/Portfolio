@@ -8,7 +8,7 @@ A static HTML/CSS portfolio with a short introduction, three featured projects, 
 
 - `index.html`: DataDock, SnapChef, and SignalDesk first; five complementary projects and a collapsed earlier-projects collection
 - Individual project pages: purpose, stack, source, live app, and implementation notes
-- `experience.html`: employment, education, and project contributions
+- `experience.html`: detailed programming support, robotics testing, residential operations, applied coursework, and project contributions
 - `approach.html`: workflow and AI-assisted development disclosure
 - `skills.html`: technical skills and project evidence
 - `contact.html`: email, professional links, and résumé download
