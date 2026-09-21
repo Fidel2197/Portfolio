@@ -2,11 +2,11 @@
 
 [Live portfolio](https://fidel-portfolio-eta.vercel.app/)
 
-A static HTML/CSS portfolio with a short introduction, three featured projects, a compact gallery, experience, and contact. Each project has a separate build-notes page explaining its workflow, data boundary, and limitations.
+A static HTML/CSS portfolio with a short introduction, three featured projects, a personal introduction, a compact gallery, experience, and contact. Each project has a separate build-notes page explaining its workflow, implementation decisions, data boundary, and limitations. The DataDock hero preview shows the complete image without cropping, animation, or decorative overlays.
 
 ## Pages
 
-- `index.html`: DataDock, SnapChef, and SignalDesk first; seven complementary projects
+- `index.html`: DataDock, SnapChef, and SignalDesk first; five complementary projects and a collapsed earlier-projects collection
 - Individual project pages: purpose, stack, source, live app, and implementation notes
 - `experience.html`: employment, education, and project contributions
 - `approach.html`: workflow and AI-assisted development disclosure
