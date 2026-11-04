@@ -10,11 +10,9 @@ A responsive personal portfolio built with HTML and CSS. It brings together my w
 
 ![Portfolio homepage](assets/portfolio-home.png)
 
-## Overview
+## About
 
-My portfolio includes web applications, browser games, and a team bookstore project. DataDock, SnapChef, and SignalDesk are featured on the homepage.
-
-Project pages include screenshots, workflow steps, implementation details, source code, and links to the next project. Experience covers my university roles, coursework, and Linux certification.
+My web applications, games, and university experience. Each project page has screenshots, implementation details, a live link, and source code. The site also includes my résumé and Linux certification.
 
 ## Features
 
