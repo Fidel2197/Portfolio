@@ -8,17 +8,19 @@ A responsive personal portfolio built with HTML and CSS. It brings together my w
 - [View résumé](https://fidel-portfolio-eta.vercel.app/assets/fidel-anyanwu-resume.pdf)
 - [Repository](https://github.com/Fidel2197/Portfolio)
 
+![Portfolio homepage](assets/portfolio-home.png)
+
 ## Overview
 
-I built this site to give people a useful introduction to my work: what each project does, how it works, and what I contributed. DataDock, SnapChef, and SignalDesk are featured on the homepage, alongside a wider collection of browser applications, games, and a collaborative bookstore project.
+My portfolio includes web applications, browser games, and a team bookstore project. DataDock, SnapChef, and SignalDesk are featured on the homepage.
 
-Each project has its own page with screenshots, technical decisions, live links, and source code. The experience section covers my work at McNeese State University, with examples of programming support, prototype testing, and residential operations.
+Project pages include screenshots, workflow steps, implementation details, source code, and links to the next project. Experience covers my university roles, coursework, and Linux certification.
 
 ## Features
 
 - Featured projects with screenshots, stack summaries, and direct application links
-- Individual project pages covering workflows, implementation choices, and current capabilities
-- Experience and education, including practical examples from university roles and coursework
+- Individual project pages with workflow steps and next-project navigation
+- Experience and education with expandable work examples and certification links
 - Skills linked to the projects where I used them
 - A development approach page covering planning, testing, and iteration
 - Contact details, professional links, and a downloadable résumé
