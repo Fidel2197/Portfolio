@@ -89,6 +89,16 @@
 .case-next { margin-top: 42px; padding: 24px; border-radius: 10px; background: #e0f2ee; }
 .case-next p { margin: 0 0 6px; }
 .contact-card .text-link { display: inline-block; margin-top: 14px; }
+.contact-page .case-heading { padding-bottom: 12px; }
+.contact-page .contact-layout { margin-top: 24px; align-items: stretch; }
+.contact-page .contact-card { min-height: 220px; gap: 12px; }
+.contact-page .contact-card h2 { margin: 0; font-size: 1.25rem; }
+.contact-address { color: var(--teal-dark); overflow-wrap: anywhere; text-underline-offset: 4px; }
+.contact-page .contact-card > .button,
+.contact-page .contact-actions,
+.contact-page .contact-card > .featured-links { margin-top: auto; padding-top: 12px; }
+.contact-page .contact-actions .button { margin-top: 0; }
+.site-nav a[aria-current="page"] { color: var(--teal-dark); box-shadow: inset 0 -2px var(--teal); }
 .role-list { display: grid; gap: 20px; }
 .role-card { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 32px; padding: 28px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
 .role-meta { color: var(--teal-dark); font-weight: 700; font-size: .9rem; }
