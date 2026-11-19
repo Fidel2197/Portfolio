@@ -173,7 +173,6 @@ body::after {
 }
 
 .page-main > .case-heading:first-of-type {
-  --heading-art: url("assets/retro-keyboard.jpg");
   position: relative;
   isolation: isolate;
   max-width: none;
@@ -187,18 +186,31 @@ body::after {
 }
 
 .case-study > .case-heading:first-of-type {
-  --heading-art: url("assets/retro-workstation.jpg");
-  --heading-art-size: auto 145%;
   margin-top: 16px;
 }
 
-.page-main > .case-heading:first-of-type::before {
+[data-header-art="approach"] { --heading-art: url("assets/header-approach.jpg"); }
+[data-header-art="experience"] { --heading-art: url("assets/header-experience.jpg"); }
+[data-header-art="skills"] { --heading-art: url("assets/header-skills.jpg"); }
+[data-header-art="contact"] { --heading-art: url("assets/header-contact.jpg"); }
+[data-header-art="arcane-duel"] { --heading-art: url("assets/arcane-duel-preview.png"); }
+[data-header-art="bookstore"] { --heading-art: url("assets/cowboy-bookstore-hero.png"); }
+[data-header-art="campus-connect"] { --heading-art: url("assets/campus-connect-preview.png"); }
+[data-header-art="datadock"] { --heading-art: url("assets/datadock-home-preview.png"); }
+[data-header-art="fitnex"] { --heading-art: url("assets/fitnex-banner.jpg"); }
+[data-header-art="fortunatocare"] { --heading-art: url("assets/fortunatocare-about.jpg"); }
+[data-header-art="signaldesk"] { --heading-art: url("assets/signaldesk-preview.png"); }
+[data-header-art="snapchef"] { --heading-art: url("assets/snapchef-food-board.png"); }
+[data-header-art="studyops"] { --heading-art: url("assets/studyops-preview.png"); }
+[data-header-art="tetris"] { --heading-art: url("assets/tetris-game-preview.png"); }
+
+.case-heading[data-header-art]::before {
   position: absolute;
   z-index: -1;
   inset: 0 0 0 auto;
-  width: 34%;
-  background: linear-gradient(90deg, #e1ecee, #e1ecee00 58%),
-    var(--heading-art) right bottom / var(--heading-art-size, cover) no-repeat;
+  width: 33%;
+  background: var(--heading-art) center / cover no-repeat;
+  mask-image: linear-gradient(90deg, transparent, #000 34%);
   content: "";
 }
 
@@ -223,15 +235,11 @@ body::after {
     padding: 20px 20px 96px;
   }
 
-  .page-main > .case-heading:first-of-type::before {
+  .case-heading[data-header-art]::before {
     inset: auto 0 0 auto;
-    width: min(66%, 224px);
-    height: 98px;
-    background-image: linear-gradient(90deg, #e1ecee, #e1ecee00 54%),
-      linear-gradient(#e1ecee, #e1ecee00 52%), var(--heading-art);
-    background-position: center, center, right bottom;
-    background-size: auto, auto, auto 185%;
-    background-repeat: no-repeat;
+    width: min(75%, 260px);
+    height: 88px;
+    mask-image: linear-gradient(90deg, transparent, #000 28%);
   }
 
   .curated-home .hero {
