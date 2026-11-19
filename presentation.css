@@ -1,15 +1,8 @@
 /* Shared presentation for the current portfolio pages. */
-body {
-  background: radial-gradient(ellipse at 10% 0%, #dcefeb 0%, transparent 40%),
-    radial-gradient(ellipse at 95% 12%, #e6ecfa 0%, transparent 35%), #f6f8fa;
-}
-body::after { opacity: .12; animation: none; }
-body::before { opacity: .2; }
 .section-heading .section-kicker { display: block; width: fit-content; margin-bottom: 12px; }
 .section-heading h2, .contact-prompt h2 { display: block; background: none; text-shadow: none; }
 .featured-work > .section-heading::after { content: none; }
 .section-kicker { border-color: #0f766e; color: #115e59; }
-.curated-home .hero h1 { font-size: clamp(2rem, 4vw, 2.8rem); }
 .hero-proof a { color: inherit; text-underline-offset: 3px; }
 .curated-home .featured-work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
 .curated-home .featured-card { grid-template-rows: auto 1fr; border-radius: 14px; box-shadow: 0 8px 24px #102c3810; }
@@ -64,4 +57,146 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #0f766e; outline-off
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* Shared visual accents for the existing portfolio layout. */
+body {
+  --paper: #edf3f4;
+  --ink: #182629;
+  --accent-yellow: #f6d667;
+  --display-font: Georgia, "Times New Roman", serif;
+  background: var(--paper);
+}
+
+body::before,
+body::after {
+  opacity: .12;
+}
+
+.site-header {
+  background: #f8faf9f5;
+  border-bottom-color: #cfdbde;
+}
+
+.brand {
+  background: var(--accent-yellow);
+  border-width: 1px;
+  border-radius: 6px;
+  box-shadow: none;
+  font-family: var(--display-font);
+}
+
+.curated-home .hero {
+  background: linear-gradient(#e1eceeaa, #e1eceeaa),
+    #e1ecee url("assets/retro-workstation.jpg") center bottom / cover no-repeat;
+  border: 1px solid #c4d5d9;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px #18363b12;
+  animation: none;
+}
+
+.curated-home .hero::before,
+.curated-home .hero::after,
+.curated-home .hero-ambient {
+  display: none;
+}
+
+.curated-home .hero h1,
+.section-heading h2,
+.case-heading h1,
+.home-experience h2,
+.contact-prompt h2 {
+  color: var(--ink);
+  font-family: var(--display-font);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-shadow: none;
+}
+
+.curated-home .hero h1 {
+  font-size: 3.6rem;
+  line-height: 1.05;
+}
+
+.curated-home .hero .eyebrow {
+  border-color: #ab801b;
+  background: none;
+  color: var(--ink);
+  text-shadow: none;
+}
+
+.curated-home .hero-text {
+  color: #33494f;
+}
+
+.curated-home .hero .button.primary,
+.contact-prompt .button.primary {
+  background: var(--accent-yellow);
+  border-color: #a8862e;
+  color: var(--ink);
+  box-shadow: none;
+}
+
+.curated-home .hero .button.primary:hover,
+.contact-prompt .button.primary:hover {
+  background: #ffe48b;
+}
+
+.curated-home .hero .button.secondary {
+  background: #f8faf9;
+  border-color: #859da3;
+  color: var(--ink);
+}
+
+.curated-home .hero .hero-proof span {
+  padding: 5px 9px;
+  border-color: #bdcfd2;
+  border-radius: 5px;
+  background: #f3f8f8;
+  color: #33494f;
+  font-size: .78rem;
+  animation: none;
+}
+
+.curated-home .hero-showcase {
+  border-radius: 8px;
+  box-shadow: 0 12px 30px #18363b26;
+}
+
+.curated-home .contact-prompt {
+  align-items: center;
+  padding: clamp(24px, 5vw, 48px);
+  border: 1px solid #c4d5d9;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #e6efef 30%, #e6efef88),
+    #e6efef url("assets/retro-keyboard.jpg") right 58% / cover no-repeat;
+}
+
+.curated-home .featured-card,
+.gallery-card,
+.case-sections section {
+  border-radius: 8px;
+}
+
+.featured-links a {
+  border-radius: 6px;
+}
+
+@media (max-width: 860px) {
+  .curated-home .hero h1 { font-size: 3rem; }
+}
+
+@media (max-width: 560px) {
+  .curated-home .hero h1 { font-size: 2.45rem; }
+
+  .curated-home .hero {
+    background-size: auto, auto 62%;
+    background-position: center, center bottom;
+  }
+
+  .curated-home .hero-proof {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
 }
