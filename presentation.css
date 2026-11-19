@@ -172,6 +172,36 @@ body::after {
     #e6efef url("assets/retro-keyboard.jpg") right 58% / cover no-repeat;
 }
 
+.page-main > .case-heading:first-of-type {
+  --heading-art: url("assets/retro-keyboard.jpg");
+  position: relative;
+  isolation: isolate;
+  max-width: none;
+  min-height: 190px;
+  margin: 0 0 24px;
+  padding: 28px 31% 28px 28px;
+  border: 1px solid #c4d5d9;
+  border-radius: 8px;
+  background: #e1ecee;
+  overflow: hidden;
+}
+
+.case-study > .case-heading:first-of-type {
+  --heading-art: url("assets/retro-workstation.jpg");
+  --heading-art-size: auto 145%;
+  margin-top: 16px;
+}
+
+.page-main > .case-heading:first-of-type::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 0 auto;
+  width: 34%;
+  background: linear-gradient(90deg, #e1ecee, #e1ecee00 58%),
+    var(--heading-art) right bottom / var(--heading-art-size, cover) no-repeat;
+  content: "";
+}
+
 .curated-home .featured-card,
 .gallery-card,
 .case-sections section {
@@ -188,6 +218,21 @@ body::after {
 
 @media (max-width: 560px) {
   .curated-home .hero h1 { font-size: 2.45rem; }
+
+  .page-main > .case-heading:first-of-type {
+    padding: 20px 20px 96px;
+  }
+
+  .page-main > .case-heading:first-of-type::before {
+    inset: auto 0 0 auto;
+    width: min(66%, 224px);
+    height: 98px;
+    background-image: linear-gradient(90deg, #e1ecee, #e1ecee00 54%),
+      linear-gradient(#e1ecee, #e1ecee00 52%), var(--heading-art);
+    background-position: center, center, right bottom;
+    background-size: auto, auto, auto 185%;
+    background-repeat: no-repeat;
+  }
 
   .curated-home .hero {
     background-size: auto, auto 62%;
